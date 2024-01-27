@@ -6,3 +6,10 @@ to create db:
 from app1 import app, db
 app.app_context().push()
 db.create_all()
+Packages to be installed
+-------------------------
+flask
+session
+pyodbc
+flask-login
+flask-sqlalchemy
